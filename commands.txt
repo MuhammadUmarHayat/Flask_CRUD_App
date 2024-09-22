@@ -1,0 +1,17 @@
+mkdir flaskpr1
+cd flaskpr1
+py -3 -m venv .venv
+.venv\Scripts\activate
+ pip install Flask
+code .
+python "p1.py"
+
+pip install mysql-connector-python
+
+# @app.route("/Admin")
+# def admin():
+#     return redirect(url_for("home"))
+
+# @app.route("/<name>")
+# def user(name):
+#     return f"<p>Hi {name}!</p>"
